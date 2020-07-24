@@ -1,0 +1,625 @@
+/*  Сomfortable dark theme for SHIKIMORI  */
+@media (min-width: 960px);
+@import url(https://css-club.web.app/css/compact_news--grid.css);
+body,
+.to-top-fix {
+    background: black;
+    border: none;
+}
+
+/* versh menu */
+.l-top_menu,
+.b-main_search ul.popup li {
+    background: black;
+    padding-top: 8px;
+    height: 50px;
+    border: none;
+}
+
+.menu .avatar {
+    height: 30px;legend
+}
+
+.b-main_search .input input,
+.b-main_search .input {
+    background: #18191d;
+    color: #dbdbdb;
+    border: none;
+    color: white;
+
+}
+
+.l-page,
+.b-comment>.inner header .name-date a.name,
+
+.b-video_player .cc-player_controls .episode-num input,
+.b-modal>.inner,
+.p-user_rates-index .list-lines tr.edit-form form {
+    background: #18191d;
+    color: #dbdbdb;
+}
+
+/* white */
+header.head h1,
+header.head h2,
+.b-entry-info .line .value,
+
+.b-hot_topics .topic.subject,
+.p-dashboard .l-menu .ongoing .misc,
+.b-replies,
+.p-user_rates-index .list-lines tr .index,
+.l-top_menu-v2 .global-search .search-results .nothing_found:first-child
+{
+    color: white !important;
+}
+
+
+h3,
+.b-catalog_entry-tooltip .inner .line .value .tag,
+.b-catalog_entry-tooltip .inner .line .key,
+.profile-actions .ban,
+.profile-actions .settings,
+.profile-actions .mail,
+.p-user_rates-index .list-lines tr .name a,
+.p-user_rates-index .list-groups .summary.lines,
+.b-stats_bar .title,
+.b-catalog_entry-tooltip .inner .text .b-prgrph,
+.bar.vertical .line .x_label,
+.p-profiles .profile-head .c-info .c-additionals b,
+.b-video_variant .video-author,
+.buttons .editor-bold,
+.buttons .editor-italic,
+.buttons .editor-underline,
+.buttons .editor-strike,
+.buttons .editor-link,
+.buttons .editor-image,
+.buttons .editor-quote,
+.buttons .editor-spoiler,
+.buttons .editor-file,
+.buttons .editor-smiley,
+.buttons .editor-image input,
+.b-video_player .cc-player_controls .c-control,
+.b-video_player .cc-player_controls .report .icon,
+.b-video_player .cc-player_controls .show-options .icon,
+.b-stats_bar .stat_names .stat_name a,
+.b-block_list li,
+.b-video_player .cc-player_controls .episode-num,
+.p-animes_collection-index .pagination,
+.p-mangas_collection-index .pagination,
+.p-recommendations-index .pagination,
+.p-userlist_comparer-show .pagination,
+.bar.horizontal .line .x_label {
+    color: #dbdbdb !important;
+}
+
+h3,
+.b-prgrph,
+.b-user.detailed,
+.b-user.moderation {
+    border-bottom: 1px dashed #645867;
+}
+
+.b-db_entry-note,
+.p-dashboards-show .cc-news .c-generated_news .b-topic,
+.b-comment,
+.p-topics .l-menu .clubs .entry,
+.p-topics .l-menu .sticky-topics .topic,
+.b-message,
+.p-dashboard .l-content .b-catalog_entry {
+    border-top: 1px dashed #645867;
+}
+
+/* bledno purpurnyiy */
+.title,
+.b-catalog_entry-tooltip .inner a.name,
+.b-topic>.inner header .name-date a.name,
+.b-entry-info .line .b-tag,
+.p-topics header h1 a.reload,
+.b-forums .forum .link-with-input .link,
+.p-dashboards-show .c-content .options .option,
+.b-add_to_list .plus,
+.b-stats_bar a.title,
+.b-user16,
+.b-options-floated a,
+.b-options-floated .link,
+.b-video_variant a,
+.b-video_player .cc-player_controls .next .icon,
+.b-video_player .cc-player_controls a.c-control,
+.b-catalog_entry .cover .title,
+.b-link a:hover,
+.b-video_player .cc-player_controls .prev .icon,
+.b-video_player .cc-player_controls .episode-num .video-link a,
+.b-video_variant .episode-num,
+.b-video_variant .video-id,
+.b-catalog_entry-tooltip .inner .rating .text,
+.b-catalog_entry-tooltip .inner .rating
+{
+    /*color: #F984E5; */
+    color: #FF73EE ;
+}
+
+.b-catalog_entry-tooltip .inner .rating .text,
+.b-catalog_entry-tooltip .inner .rating {
+    font-family: "Helvetica Neue", Arial, Verdana, sans-serif;
+
+
+}
+
+.p-dashboards-show .c-my_list,
+.tooltip-inner,
+.subheadline,
+.b-link_button.dark,
+
+.b-link_button,
+.orange,
+.red,
+.blue,
+.green,
+.midheadline,
+.b-hot_topics,
+.trigger,
+.b-add_to_list.watching .trigger,
+.b-add_to_list.watching .option,
+.b-add_to_list.planned .trigger,
+.b-add_to_list.planned .option,
+.p-user_rates-index .list-groups .summary.posters,
+.b-comments .comments-loader,
+.b-comments .comments-hider,
+.b-comments .comments-expander,
+.b-input select,
+.b-block_list li.selected,
+.headline,
+.midheadline,
+.subheadline,
+.b-quote .b-quote,
+.collapsed,
+.l-top_menu-v2,
+.l-top_menu-v2 .menu-dropdown > button a,
+.l-top_menu-v2 .submenu,
+.l-top_menu-v2 .menu-dropdown > button,
+
+.l-top_menu-v2 .global-search .search-results .search-mode:focus,
+.l-top_menu-v2 .global-search .search-results,
+.l-top_menu-v2 .global-search,
+.l-top_menu-v2 .global-search .clear,
+
+.l-top_menu-v2 .global-search .search-results .search-mode
+
+{
+    background: #151515;
+    border: none;
+    /*color: #F984E5; */
+    color: #E173D0;
+
+
+}
+
+.tooltip-inner {
+    background: black;
+    box-shadow: 0px 0px 80px rgba(102, 153, 204, 0.8);  
+}
+
+.tooltip-arrow {
+    background: none;
+    border: 20px solid transparent;
+    border-right: 20px solid black;
+
+}
+
+.tooltip-left .tooltip-arrow {
+    background: none;
+    border: 20px solid transparent;
+    border-left: 20px solid black;
+
+}
+
+.tooltip-inner .close {
+    color: #EA7E5D;
+    background: black;
+}
+
+.b-height_shortener .shade {
+
+    background-image: linear-gradient(to bottom, rgba(102, 153, 204, 0), rgba(102, 153, 204, 0.8));
+
+}
+
+
+.b-comments .comments-loader:hover,
+.b-comments .comments-hider:hover,
+.b-comments .comments-expander:hover
+{
+    background: #151515;
+    color: #47b432;
+    border: none;
+}
+
+/* green */
+
+.b-link,
+.p-dashboards .user_list .list-type>.title .switch,
+.p-dashboards .user_list .history>.title .switch,
+.p-dashboards .user_list .list-type>.title .link,
+.p-dashboards .user_list .history>.title .link,
+.p-dashboards-show .c-content .options .option.active,
+.p-dashboard .l-menu .ongoing .key,
+.b-add_to_list .expanded-options .remove-trigger .text,
+.p-user_rates-index .list-groups .summary.lines.list,
+.buttons .item-reply,
+.buttons .item-moderation,
+.buttons .item-ignore,
+.buttons .item-edit,
+.buttons .item-delete,
+header.head .notice,
+.p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a,
+.b-catalog_entry-tooltip .inner .line,
+.p-profiles .profile-head .c-info .c-additionals div a,
+.b-options-floated .selected,
+.b-video_variant.active a,
+.b-video_variant a:hover span,
+.b-video_variant a:hover span::before,
+.b-video_variant a:hover span::after,
+.p-anime_videos-index .c-anime_video_episodes .title,
+.p-anime_videos-index .c-videos .title,
+.p-user_history-index .history-page .history-interval p a,
+header.head a.misc,
+header.head a.edit,
+.b-comment .inner .name-date a.name .normal,
+.p-user_rates-index .list-lines tr td .episodes_total,
+.b-status-line .section.additional .comments::before,
+.b-status-line .section.created_at time::before,
+.b-review_votes::before{
+    /*color: #47b432; */
+    color: #66b256;
+}
+
+.b-link:hover{
+
+    /*color: #47b432;*/
+    color: #66b256;
+    border: none;
+    text-decoration: underline;
+}
+
+.b-topic {
+
+    border-top: 1px dashed #645867;
+}
+
+.p-dashboards-show .cc-news .c-news_topics .b-topic {
+    border-top-width: 1px;
+    padding-top: 30px;
+}
+
+.b-quote,
+
+.b-shiki_editor .body .editor textarea,
+.b-collection_search .field input,
+.b-block_list li:hover,
+.b-input input,
+.b-input textarea,
+.noUi-target ,
+.b-hot_topics-v2,
+.p-user_rates-index .list-lines tr td .new-value input
+
+{
+    background: #151515;
+    border: none;
+    color: #dbdbdb;
+}
+
+.p-profiles .profile-head .c-history .entry .misc {
+    color: #dbdbdb !important;
+}
+
+.l-top_menu .submenu>.entry,
+.b-main_search ul.popup li {
+    font-family: "Helvetica Neue", Arial, Verdana, sans-serif;
+    background: #151515;
+    border: none;
+    color: #dbdbdb;
+    cursor: pointer;
+    display: block;
+    /*font-family: Tahoma;*/
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    min-width: 80px;
+    padding: 0 8px 0 8px;
+    -webkit-transition: backround-color 0.3s ease, color 0.3s ease;
+    transition: backround-color 0.3s ease, color 0.3s ease;
+}
+
+/*ognennaya sienna krayola  */
+
+header.head h1 a.back,
+header.head h2 a.back,
+.p-anime_videos-index .c-videos .video-variant-switcher.active,
+.p-dashboards .user_list .list-change .note,
+.headline>a,
+.midheadline>a,
+.subheadline>a,
+.b-rate .stars.score,
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close,
+.b-show_more,
+.b-rate .text-score,
+.b-rate .score-notice,
+.l-top_menu-v2 .global-search input,
+.l-top_menu-v2.is-search-focus .global-search .search-marker
+
+{
+
+    color: #EA7E5D;
+}
+header.head .misc, header.head a.edit
+{
+    color: #EA7E5D;
+    font-family: "Helvetica Neue", Arial, Verdana, sans-serif;
+    font-size: 13px;
+    line-height: 12px;
+}
+.collapsed:hover,
+.b-comments .faye-loader,
+.b-forum .faye-loader,
+.l-top_menu-v2 .global-search input{
+    border: none;
+    color: #EA7E5D;
+    background: black;
+}
+
+.b-comments .faye-loader,
+.b-forum .faye-loader:hover {
+    border: none;
+    color: #66b256;
+    background: black;
+}
+
+/* akva-kray*/
+
+a,
+.b-club .name,
+.b-animes-menu .menu-topics-block .entry .name,
+.b-animes-menu .menu-topics-block .history-entry-tooltip .tooltip-details a,
+.b-db_entry-note .name-container .name,
+.p-animes_collection-index .pagination .link,
+.p-mangas_collection-index .pagination .link,
+.p-recommendations-index .pagination .link,
+.p-userlist_comparer-show .pagination .link,
+.b-catalog_entry .cover .misc span,
+.b-shiki_editor footer .about-bb_codes,
+.b-spoiler label,
+.p-anime_videos-index .c-videos .video-variant-switcher,
+.p-anime_videos-index .same-videos .title,
+.b-animes-menu .total-rates,
+.b-db_entry>.c-about .additional-links .line-container>.link,
+.b-db_entry>.c-about .additional-links .line-container>a,
+.b-options-floated.mobile-desktop a,
+.p-user_rates-index .stat-categories .category,
+.p-user_rates-index .l-content .order-control,
+.b-options-floated .action,
+.b-comments .comments-collapser,
+.b-height_shortener .expand span,
+.b-lang_trigger,
+.b-lang_trigger span,
+.p-contests-index .contest a,
+.p-contests .results .cc-result .c-rounds .label,
+.p-contests .results a,
+.headline>a,
+.midheadline>a,
+.subheadline>a,
+.b-user.detailed .history .line a .event,
+.b-message>.inner header .name-date a.name,
+.b-js-link,
+.b-form .cancel,
+.p-profiles-edit .account .change-password a,
+.headline .misc-links>a,
+.midheadline .misc-links>a,
+.subheadline .misc-links>a,
+.b-edit_styles .edit_style .style_css .editor-collapse,
+.p-profiles-show .profile-content .activity .title,
+.b-edit_styles .edit_style .style_css .editor-expand,
+.b-tag,
+.b-hot_topics-v2 .subject,
+.b-mention,
+.p-profiles-edit .list .profile-action a:not(.b-button),
+.b-subposter-action,
+.p-contests .suggestion > a, .p-contests .variant,
+.b-header_filters .filter-line a.current,
+.b-header_filters .filter-line .title,
+.b-db_entry-variant-list_item > .info .line .key{
+    color: #CDB4EF;
+}
+
+a:active,
+a:hover,.c-brief .avatar img
+.l-top_menu .submenu>.entry:hover,
+.l-top_menu .submenu>.entry a,
+
+.b-forums .forum .link-with-input .link:hover,
+.b-topic>.inner header .name-date a.name:hover,
+.b-main_search .popup li:hover {
+
+    color: #FF73EE;
+    text-decoration: underline;
+}
+
+
+
+/* hover*/
+a:hover,
+.b-user16:hover,
+.b-animes-menu .menu-topics-block .entry .name:hover,
+.b-catalog_entry .cover .misc span:hover,
+.b-catalog_entry .cover:hover .title,
+.headline.linkheadline>a:hover,
+.linkheadline.midheadline>a:hover,
+.linkheadline.subheadline>a:hover,
+.headline.linkheadline>a:hover::before,
+.linkheadline.midheadline>a:hover::before,
+.linkheadline.subheadline>a:hover::before .p-dashboards-show .c-content .options .option:hover,
+.p-contests-index .contest a:hover {
+    color: #EA7E5D;
+}
+
+.headline>a:hover,
+.midheadline>a:hover,
+.subheadline>a:hover,
+.p-dashboards-show .c-content .options .option:hover {
+    text-decoration: underline;
+    border-bottom-color: #EA7E5D;
+}
+/* пурпур -фон, белый текст */
+.b-link_button:hover,
+.b-link_button.dark:hover,
+.p-user_rates-index .list-lines tr.editable:hover,
+.l-top_menu-v2 .submenu > a:hover,
+.l-top_menu-v2 .global-search .search-results .search-mode.active,
+.l-top_menu-v2 .global-search .search-results .search-mode.active::before
+
+/*.p-topics header h1 a.reload:hover */
+{
+    background: #FF73EE;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.noUi-handle {
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background: #fff;
+    cursor: default;
+    box-shadow: inset 0 0 1px #fff, inset 0 1px 7px #ebebeb, 0 3px 6px -3px #bbb;
+}
+
+.noUi-handle {
+    position: absolute;
+}
+
+.noUi-target,
+.noUi-target * {
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    -ms-touch-action: none;
+    touch-action: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.b-quote,
+.b-shiki_editor .body .editor textarea,
+.b-collection_search .field input,
+.b-block_list li:hover,
+.b-input input,
+.b-input textarea,
+.noUi-target {
+    color: #dbdbdb;
+}
+
+.noUi-target {
+    direction: ltr;
+}
+
+.cc-2>.c-column {
+    line-height: 1.65;
+}
+
+.block {
+    line-height: 1.65;
+}
+
+.l-page,
+.b-comment>.inner header .name-date a.name,
+.b-video_player .cc-player_controls .episode-num input,
+.b-modal>.inner {
+    color: #dbdbdb;
+}
+
+.noUi-handle {
+    border: none;
+    border-radius: 3px;
+    background: #FF73EE;
+    cursor: default;
+    box-shadow: inset 0 0 1px #fff, inset 0 1px 7px #ebebeb, 0 3px 6px -3px #bbb;
+}
+.l-top_menu-v2 .logo-container .logo
+{
+  background-image: none;
+  width: 0;.c-brief .avatar img
+}
+.l-top_menu-v2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.l-top_menu-v2 .menu-dropdown.profile > button img,
+.c-brief .avatar img,
+.b-message > .inner header img,
+.b-comment > .inner header img
+/*.b-topic > .inner header img */
+{
+  border-radius: 50%;
+}
+.b-hot_topics-v2 
+{
+  height: 60px;
+}
+
+.p-profiles-show .achievements .header .title {
+    color: white !important;
+    font-weight: bold;
+}
+.subheadline a, .p-dashboards-show .v2 .my-list .label {
+    color: #FF73EE;
+    font-weight: bold !important;
+}
+.p-dashboards-show .v2 .my-list .label .misc-links a {
+    color: #FF73EE;
+}
+.b-form input[type="submit"] {
+    background-color: #34c400;
+}
+.title {
+    color: white
+}
+.my-list, .status {
+    color: #dbdbdb !important;
+    background: #151515 !important;
+}
+.p-dashboards-show .v2 .my-list {
+    border: 1px solid rgba(225,115,208,0.45);
+}
+.b-news_wall-topic .title {
+    color: #CDB4EF !important
+}
+.b-news_wall-topic .status-line .comments {
+    color: #dbdbdb
+}
+.b-rate .stars.score {
+    position: absolute;
+}
+.b-user_rate-history .status-counter .counter  {
+    color: #dbdbdb
+}
+.b-stats_bar .bar .third {
+    background: #5b5b5b
+}
+.b-user_rate-history .progress{
+    background: #5b5b5b
+}
+.b-news_line-topic .status-line .comments {
+    color: #dbdbdb
+}
