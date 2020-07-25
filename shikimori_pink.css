@@ -623,3 +623,6 @@ a:hover,
 .b-news_line-topic .status-line .comments {
     color: #dbdbdb
 }
+.b-height_shortener .shade {
+    background-image: linear-gradient(to bottom, rgba(102, 153, 204, 0), rgba(0, 0, 0, 0.69));
+}
