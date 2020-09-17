@@ -1,3 +1,40 @@
+/* 
+
+
+New scrolbar (test)
+
+
+*/
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255, 115, 238 ,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+
+
+
+
+
+
+
 /*  Сomfortable dark theme for SHIKIMORI  */
 @media (min-width: 960px);
 @import url(https://css-club.web.app/css/compact_news--grid.css);
@@ -620,9 +657,18 @@ a:hover,
 .b-user_rate-history .progress{
     background: #5b5b5b
 }
-.b-news_line-topic .status-line .comments {
+.b-news_line-topic .status-line .comments, .highcharts-legend-item .highcharts-areaspline-series .highcharts-color-undefined .highcharts-series-2{
     color: #dbdbdb
 }
 .b-height_shortener .shade {
     background-image: linear-gradient(to bottom, rgba(102, 153, 204, 0), rgba(0, 0, 0, 0.69));
+}
+.b-spns-special_x300, .spns_special_x1170{
+    display: none;
+}
+.highcharts-background {
+    fill: #151515
+}
+img {
+    border-radius: 3%;
 }
