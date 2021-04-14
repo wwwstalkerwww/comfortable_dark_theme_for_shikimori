@@ -672,3 +672,13 @@ a:hover,
 img {
     border-radius: 3%;
 }
+
+/* Спойлеры (цвет фона текста и т. д.) */
+.b-spoiler_block>div {
+    background-color: #444;
+}
+
+/* Цвет заголовков текста */
+h2, h3, h4 {
+    color: #f78ae9;
+}

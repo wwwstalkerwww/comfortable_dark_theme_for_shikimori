@@ -1,0 +1,1 @@
+@import url(https://raw.githubusercontent.com/wwwstalkerwww/comfortable_dark_theme_for_shikimori/master/shikimori_pink.css);
