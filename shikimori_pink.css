@@ -678,7 +678,21 @@ img {
     background-color: #444;
 }
 
+/* Блок текста как спойлер, без спойлера (цвет фона) */
+.b-quote-v2 {
+    background-color: #444;
+}
+
 /* Цвет заголовков текста */
 h2, h3, h4 {
     color: #f78ae9;
 }
+
+/* Цвет упоминания, ответа на комментарий, в комментариях (пример: @Clown) */
+a.b-mention, .b-mention s {
+    color: #cdb4ef;
+}
+
+/* Цвет всего простого текста (комменарии и т д) */
+.b-comment>.inner .body {
+	color: #dbdbdb;
