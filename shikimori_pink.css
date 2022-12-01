@@ -1,10 +1,20 @@
 /* 
-
-
 New scrolbar (test)
-
-
 */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
 
 /* Let's get this party started */
 ::-webkit-scrollbar {
@@ -54,7 +64,7 @@ body,
 }
 
 .menu .avatar {
-    height: 30px;legend
+    height: 30px;legend;
 }
 
 .b-main_search .input input,
@@ -227,8 +237,6 @@ h3,
     border: none;
     /*color: #F984E5; */
     color: #E173D0;
-
-
 }
 
 .tooltip-inner {
@@ -596,7 +604,8 @@ a:hover,
 .l-top_menu-v2 .logo-container .logo
 {
   background-image: none;
-  width: 0;.c-brief .avatar img
+  width: 0;}
+.c-brief .avatar img{
 }
 .l-top_menu-v2 {
   max-width: 1200px;
@@ -696,3 +705,48 @@ a.b-mention, .b-mention s {
 /* Цвет всего простого текста (комменарии и т д) */
 .b-comment>.inner .body {
 	color: #dbdbdb;
+}
+
+
+.navigation-node-negative {
+    color: #a74444 !important;
+}
+.navigation-node-neutral {
+    color: #24839d !important;
+}
+.navigation-node-positive {
+    color: #449135 !important;
+}
+.date_optional {
+    background: #222 !important;
+}
+.user-rate-label {
+    color: #7b8084 !important;
+}
+.neutral {
+    color: #24839d !important;
+}
+.b-critique_votes::before {
+    color: #ea7e5d;
+}
+.comments {
+    color: #ccc;
+}
+.comments::before {
+    color: #ccc !important;
+}
+.section.created_at {
+    color: #ccc !important;
+}
+.kind {
+    color: #ccc !important;
+}
+.author, .status-line>span {
+    color: #ccc !important;
+}
+.label>span {
+    color: #FF73EE !important;
+}
+.avatar>img {
+    border-radius: 50%;
+}
