@@ -748,5 +748,5 @@ a.b-mention, .b-mention s {
     color: #FF73EE !important;
 }
 .avatar>img {
-    border-radius: 50%;
+    border-radius: 50% !important;
 }
