@@ -750,3 +750,7 @@ a.b-mention, .b-mention s {
 .avatar>img {
     border-radius: 50% !important;
 }
+
+.image-container {
+  background-color: #333 !important; /* Темный фон */
+}
