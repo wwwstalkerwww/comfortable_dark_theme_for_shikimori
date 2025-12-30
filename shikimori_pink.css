@@ -754,3 +754,15 @@ a.b-mention, .b-mention s {
 .image-container {
   background-color: #333 !important; /* Темный фон */
 }
+
+
+
+/* fix adb*/
+
+.fc-user-sections > .f-user:has(.spns_special_mini) {
+  display: none !important;
+}
+
+.spns_special_mini{
+    display: none;
+}
