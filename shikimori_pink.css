@@ -764,10 +764,6 @@ a.b-mention, .b-mention s {
 }
 
 .spns_special_mini, 
-.b-spns-yd_240x400, 
-.b-spns-yd_970x90{
+.b-spns-yd_240x400, .spns_yd_970x90{
     display: none;
 }
-
-
-
