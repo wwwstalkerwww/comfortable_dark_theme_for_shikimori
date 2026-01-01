@@ -763,8 +763,11 @@ a.b-mention, .b-mention s {
   display: none !important;
 }
 
-.spns_special_mini, .b-spns-yd_240x400, .b-spns-yd_970x90{
+.spns_special_mini, 
+.b-spns-yd_240x400, 
+.b-spns-yd_970x90{
     display: none;
 }
+
 
 
